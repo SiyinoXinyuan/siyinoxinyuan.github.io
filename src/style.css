@@ -1,0 +1,67 @@
+/*css init start*/
+* {
+    padding: 0;
+    margin: 0;
+    display: border-box;
+}
+/*css init over*/
+body{
+    background: url(/src/images/background.webp);
+    color: #222;
+    font-size: 1em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a {
+    text-decoration-line: unset;
+    color: #00E676;
+}
+li {
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: lighter;
+}
+hr {
+    margin: 0.4em 0;
+}
+.container {
+    background: white;
+    box-shadow: 0 0 0.15em 0.15em rgba(0,0,0,.125);
+    padding: 1em 0;
+    margin: 0 auto;
+    max-width: 60em;
+}
+.avatar {
+    padding: 2em;
+    float: left;
+    width: 30%;
+}
+.picture {
+    background: #00E676;
+    box-shadow: 0 0 0.15em 0.15em rgba(0,0,0,.15);
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.picture img{
+    box-sizing: content-box;
+    height: 100%;
+    width: 100%;
+    
+}
+.info {
+    padding: 2em;
+}
+.nickname {
+    font-size: 2.5em;
+    padding: 0 0 0.15em;
+}
+.bio {
+    font-size: 1.15em;
+}
+.footer-text{
+    margin: 0 0 .15em 0;
+}
