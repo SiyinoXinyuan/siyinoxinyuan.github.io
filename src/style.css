@@ -6,7 +6,7 @@
 }
 /*css init over*/
 body{
-    background: url(/src/images/background.webp);
+    /*background: url(/src/images/background.webp);*/
     color: #222;
     font-size: 1em;
     min-height: 100vh;
