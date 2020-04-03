@@ -12,7 +12,8 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;filter: grayscale(100%);
+    justify-content: center;
+    filter: grayscale(100%);
 }
 a {
     text-decoration-line: unset;
