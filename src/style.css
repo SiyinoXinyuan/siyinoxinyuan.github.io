@@ -21,27 +21,27 @@ a {
 li {
     list-style-type: none;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,span {
     font-weight: lighter;
 }
 hr {
-    margin: 0.4em 0;
+    margin: .4em 0;
 }
 .container {
     background: white;
-    box-shadow: 0 0 0.15em 0.15em rgba(0,0,0,.125);
+    box-shadow: 0 0 .15em .15em rgba(0,0,0,.125);
     padding: 1em 0;
     margin: 0 auto;
     max-width: 60em;
 }
 .avatar {
-    padding: 2em;
+    padding: 2em 2em 0;
     float: left;
     width: 30%;
 }
 .picture {
     background: #00E676;
-    box-shadow: 0 0 0.15em 0.15em rgba(0,0,0,.15);
+    box-shadow: 0 0 .15em .15em rgba(0,0,0,.15);
     display: block;
     overflow: hidden;
     width: 100%;
@@ -57,11 +57,57 @@ hr {
 }
 .nickname {
     font-size: 2.5em;
-    padding: 0 0 0.15em;
+    padding: 0 0 .15em;
 }
 .bio {
     font-size: 1.15em;
 }
+/*link start*/
+.link-title {
+    font-size: 1.25em;
+    margin: 0 0 .4em 0;
+}
+.links-circle {
+    height: 4.5em;
+}
+.links-circle li {
+    display: block;
+    float: left;
+    margin: 0 0 .4em 0;
+}
+.links-circle a {
+    display: block;
+    color: white;
+    background: #00E676;
+    width: 2em;
+    padding: .6em;
+    margin: .25em;
+    border:1px solid #00E676;
+    border-radius: 50%;
+}
+.links-circle a:hover {
+    color: #00E676;
+    background: none;
+}
+.links-list {
+    height: 6.5em;
+}
+.links-list li {
+    display: block;
+    float: left;
+    border-top: 1px solid #222;
+}
+.links-list a {
+    display: block;
+    font-size: 1.25em;
+    padding:.5em 0;
+    color: #222;
+    border-bottom: 1px solid #222;
+}
+.links-list a:hover {
+    color: #00E676;
+}
+/*link over*/
 .footer-text{
     margin: 0 0 .15em 0;
 }
