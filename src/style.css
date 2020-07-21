@@ -48,6 +48,10 @@ body {
 .ascii-logo {
     font-size: 2em;
 }
+.ascii-logo:hover {
+    color: #72C27A;
+    transition-duration: .25s;
+}
 .navbar
 {
     margin: 2em 0 0 0;
