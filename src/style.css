@@ -18,6 +18,9 @@ p {
 i {
     padding: 0 0.3em 0 0;
 }
+html {
+    font-family: Helvetica Neue,Helvetica,Arial,PingFangTC-Light,Microsoft YaHei,微软雅黑,STHeiti Light,STXihei,华文细黑,Heiti,黑体,sans-serif;
+}
 body {
     background: #f2f3f5;
     min-height: 100vh;
