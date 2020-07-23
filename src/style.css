@@ -43,6 +43,9 @@ body {
     background: rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.15);
 }
+#years {
+    display: inline;
+}
 .flex {
     display:flex
 }

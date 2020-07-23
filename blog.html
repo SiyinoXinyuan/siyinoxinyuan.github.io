@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/style.css">
     <title>博客 - 心愿的小窝</title>
+    <script type="text/javascript">
+        function showYears() {
+            var years=new Date()
+            var result=years.getFullYear();
+            document.getElementById('years').innerHTML="© " +  result
+        }
+    </script>
 </head>
-<body class="flex">
+<body class="flex" onload="showYears()">
     <div id="container">
         <div class="title flex">
 <pre class="ascii-logo">
@@ -31,7 +38,7 @@
         </div>
         <div class="hr"></div>
         <div class="footer flex">
-            <footer class="copyright">© 2020 <a href="https://chiruno.me">chiruno.me</a>.Illustrations have their licenses.</footer>
+            <footer class="copyright"><div id="years"></div> <a href="https://chiruno.me">chiruno.me</a>.Illustrations have their licenses.</footer>
             <footer class="powered">Powered by <a href="https://pages.github.com" target="_blamk">Github Pages</a></footer>
         </div>
     </div>
