@@ -15,8 +15,13 @@ a:hover, .active {
 i {
     padding: 0 0.3em 0 0;
 }
+@font-face{
+    font-family: cjk-allseto;
+    src: url("./fonts/cjkfonts-allseto.ttf");
+  }
 html {
-    font-family: Helvetica Neue,Helvetica,Arial,PingFangTC-Light,Microsoft YaHei,微软雅黑,STHeiti Light,STXihei,华文细黑,Heiti,黑体,sans-serif;
+    /* font-family: Helvetica Neue,Helvetica,Arial,PingFangTC-Light,Microsoft YaHei,微软雅黑,STHeiti Light,STXihei,华文细黑,Heiti,黑体,sans-serif; */
+    font-family: cjk-allseto;
 }
 /* 设置滚动条的样式 */
 ::-webkit-scrollbar{
