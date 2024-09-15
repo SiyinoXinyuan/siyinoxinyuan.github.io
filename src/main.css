@@ -40,7 +40,7 @@ body {
     flex-flow: column;
     justify-content: center;
 }
-#container, #footer {
+#container, #footer , #header {
     max-width: 60em;
     padding: 1em 0;
     margin: 0 auto 2em auto;
@@ -61,24 +61,24 @@ body {
         margin: 0 auto;
     }
 }
-#footer {
+#footer, #header{
     background: #72C27A;
 }
-#footer a{
+#footer a, #header a{
     display: block;
     color: #fff;
     padding: .75em 1em;
 }
 @media (max-width: 606px){
-    #footer .code-base, #footer .copyright {
+    #footer .code-base, #footer .copyright, #header .code-base {
         line-height: 2em;
     }
 }
-#footer a:hover{
+#footer a:hover,#header a:hover{
     border-bottom: none;
     background: #2FAF84;
 }
-#footer a i {
+#footer a i,#header a i {
     margin-right: 0.5em;
     text-align: center;
     width: 1.5em;
